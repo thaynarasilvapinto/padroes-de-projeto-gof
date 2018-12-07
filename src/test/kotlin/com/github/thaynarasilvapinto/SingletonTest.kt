@@ -5,18 +5,18 @@ import org.junit.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 
-class JanelaTest {
-    lateinit var  janela: Janela
+class SingletonTest {
+    lateinit var  singleton: Singleton
 
     @Before
     fun init(){
-        janela = Janela()
+        singleton = Singleton()
     }
 
     @Test
     fun `deve criar uma janela`(){
         val mensagem: String = "primeira chamda"
-        val resultado = janela.criar(mensagem)
+        val resultado = singleton.criar(mensagem)
 
         assertEquals(mensagem,resultado)
     }
@@ -26,8 +26,8 @@ class JanelaTest {
         val primeiraMensagem: String = "Primeira Chamada"
         val segundaMensagem: String = "Segunda Chamada"
 
-        val primeriaChamada = janela.criar(primeiraMensagem)
-        val segundaChamada = janela.criar(segundaMensagem)
+        val primeriaChamada = singleton.criar(primeiraMensagem)
+        val segundaChamada = singleton.criar(segundaMensagem)
 
         assertEquals(primeiraMensagem, primeriaChamada)
         assertEquals(primeiraMensagem, segundaChamada)
@@ -35,7 +35,7 @@ class JanelaTest {
 
     @Test
     fun `ao criar uma Janela com o contrutor ele nao deve permitir que o parametro Janela seja modificado`(){
-        val janelaContrutor = Janela()
+        val janelaContrutor = Singleton()
 
         assertNull(janelaContrutor.mensagem)
     }
