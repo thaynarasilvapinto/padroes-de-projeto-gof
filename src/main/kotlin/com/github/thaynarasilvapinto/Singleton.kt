@@ -1,12 +1,12 @@
 package com.github.thaynarasilvapinto
 
-class Janela private constructor(var mensagem: String? = null) {
+class Singleton private constructor(var mensagem: String? = null) {
 
     constructor():this(null)
 
     fun criar(janela: String): String {
         if (this.mensagem == null){
-            this.mensagem = Janela(janela).mensagem!!
+            this.mensagem = Singleton(janela).mensagem!!
             return this.mensagem!!
         }
         else
