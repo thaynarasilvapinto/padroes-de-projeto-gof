@@ -1,16 +1,16 @@
-package com.github.thaynarasilvapinto
+package com.github.thaynarasilvapinto.Singleton
 
 import org.junit.Before
 import org.junit.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 
-class SingletonTest {
-    lateinit var  singleton: Singleton
+class JanelaTest {
+    lateinit var  singleton: Janela
 
     @Before
     fun init(){
-        singleton = Singleton()
+        singleton = Janela()
     }
 
     @Test
@@ -35,7 +35,7 @@ class SingletonTest {
 
     @Test
     fun `ao criar uma Janela com o contrutor ele nao deve permitir que o parametro Janela seja modificado`(){
-        val janelaContrutor = Singleton()
+        val janelaContrutor = Janela()
 
         assertNull(janelaContrutor.mensagem)
     }
