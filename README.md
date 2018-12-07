@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/thaynarasilvapinto/simulador-banco.svg?branch=master)](https://travis-ci.org/thaynarasilvapinto/simulador-banco)
+[![codecov](https://codecov.io/gh/thaynarasilvapinto/simulador-banco/branch/master/graph/badge.svg)](https://codecov.io/gh/thaynarasilvapinto/simulador-banco)
+
 # Padrões de Projeto GoF (Design Patterns)
 
 ### GoF - CRIAÇÃO
