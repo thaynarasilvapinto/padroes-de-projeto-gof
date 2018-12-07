@@ -6,12 +6,8 @@ sudo: true
 
 install: true
 
-before_script:
-- sudo service postgresql stop
-
 after_success:
 - bash <(curl -s https://codecov.io/bash)
-- docker-compose down
 
 cache:
   directories:
