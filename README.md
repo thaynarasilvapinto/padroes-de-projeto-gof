@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/thaynarasilvapinto/padroes-de-projeto-gof?branch=master)](https://travis-ci.org/thaynarasilvapinto/padroes-de-projeto-gof)
 # Padrões de Projeto GoF (Design Patterns)
 
 ### GoF - CRIAÇÃO
