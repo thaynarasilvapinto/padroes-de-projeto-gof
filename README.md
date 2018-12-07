@@ -1,1 +1,1 @@
-# padroes-de-projeto-gof
+# Padrões de Projeto GoF (Design Patterns)
