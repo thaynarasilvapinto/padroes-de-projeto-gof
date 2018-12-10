@@ -5,7 +5,7 @@ import org.junit.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 
-class JanelaTest {
+class SingletonTest {
     lateinit var  singleton: Janela
 
     @Before

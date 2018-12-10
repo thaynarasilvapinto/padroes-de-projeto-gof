@@ -2,7 +2,7 @@ package com.github.thaynarasilvapinto.AbstractFactory
 
 import java.util.*
 
-abstract class ConcreteEmpresaOnibus : EmpresaOnibus() {
+open class ConcreteEmpresaOnibus : EmpresaOnibus() {
 
     override fun emitePassagemOnibusUrbano(
         origem: String,
