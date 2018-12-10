@@ -1,4 +1,3 @@
 package com.github.thaynarasilvapinto.builder
 
-class Fishburguer {
-}
+class Fishburguer : Sanduiche()

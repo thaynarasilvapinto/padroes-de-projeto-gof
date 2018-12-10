@@ -1,4 +1,3 @@
 package com.github.thaynarasilvapinto.builder
 
-class Hamburguer {
-}
+class Hamburguer : Sanduiche()
