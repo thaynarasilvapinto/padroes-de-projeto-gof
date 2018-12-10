@@ -7,7 +7,7 @@ class PassagemOnibusUrbano(var origem: String, var destino: String, var dataHora
     Passagem(origem, destino, dataHoraPartida) {
 
     override fun exibeDetalhes() : String {
-        val mensagem = "Passagem de ônibus urbana: " + origem + " para " + destino +
+        val mensagem = "EmpresaOnibus de ônibus urbana: " + origem + " para " + destino +
                 ", Data/Hora: " + super.df.format(dataHoraPartida.getTime())
 
         System.out.println(mensagem)

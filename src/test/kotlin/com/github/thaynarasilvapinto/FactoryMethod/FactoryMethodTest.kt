@@ -26,8 +26,8 @@ class FactoryMethodTest {
     @Test
     fun `deve retornar uma passagem interestadual e uma urbana`(){
 
-        val pUrbanaEsperada = "Passagem de ônibus urbana: São Paulo para Campinas, Data/Hora: 10/03/2016 11:00"
-        val pInterestadualEsperada = "Passagem de ônibus interestadual: São Paulo para Rio de Janeiro, Data/Hora: 20/04/2016 08:30"
+        val pUrbanaEsperada = "EmpresaOnibus de ônibus urbana: São Paulo para Campinas, Data/Hora: 10/03/2016 11:00"
+        val pInterestadualEsperada = "EmpresaOnibus de ônibus interestadual: São Paulo para Rio de Janeiro, Data/Hora: 20/04/2016 08:30"
 
         val pUrbanoRecebido = pUrbano.exibeDetalhes()
         val pInterestadualRecebido = pInterestadual.exibeDetalhes()
