@@ -17,3 +17,8 @@
 
 - **Intenção**: fornecer uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
 - Cria uma instância de várias famílias de classes.
+
+#### 4 - BUILDER
+
+- **Intenção**: separar a construção de um objeto complexo da sua representação de modo que o mesmo processo de construção possa criar diferentes representações.
+- Separa a construção do objeto de sua representação.
