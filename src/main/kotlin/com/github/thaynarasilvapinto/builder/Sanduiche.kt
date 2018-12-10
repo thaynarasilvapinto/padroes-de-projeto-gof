@@ -1,4 +1,5 @@
 package com.github.thaynarasilvapinto.builder
 
-class Sanduiche {
+abstract class Sanduiche{
+    var preparacao: String = ""
 }
