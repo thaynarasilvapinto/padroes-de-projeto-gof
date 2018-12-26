@@ -1,4 +1,4 @@
-package com.github.thaynarasilvapinto.AbstractFactory
+package com.github.thaynarasilvapinto.abstractfactory
 
 import java.util.*
 

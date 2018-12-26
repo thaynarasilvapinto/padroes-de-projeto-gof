@@ -1,9 +1,9 @@
-package com.github.thaynarasilvapinto.AbstractFactory
+package com.github.thaynarasilvapinto.abstractfactory
 
 import java.text.SimpleDateFormat
 import java.util.*
 
-abstract class PassagemOnibusInterestadual(
+abstract class PassagemOnibusUrbano(
     var origem: String,
     var destino: String,
     var dataHoraPartida: Calendar

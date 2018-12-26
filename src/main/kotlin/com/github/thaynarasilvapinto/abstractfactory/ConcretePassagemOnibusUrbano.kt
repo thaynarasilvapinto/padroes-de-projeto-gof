@@ -1,15 +1,15 @@
-package com.github.thaynarasilvapinto.AbstractFactory
+package com.github.thaynarasilvapinto.abstractfactory
 
 import java.util.*
 
-class ConcretePassagemOnibusInterestadual(
+class ConcretePassagemOnibusUrbano(
     origem: String,
     destino: String,
     dataHoraPartida: Calendar
-) : PassagemOnibusInterestadual(origem, destino, dataHoraPartida) {
+) : PassagemOnibusUrbano(origem, destino, dataHoraPartida) {
 
     override fun exibeDetalhes(): String {
-        val mensagem = "EmpresaOnibus de ônibus interestadual: " + this.origem + " para " + this.destino +
+        val mensagem = "EmpresaOnibus de ônibus urbana: " + this.origem + " para " + this.destino +
                 ", Data/Hora: " + super.df.format(dataHoraPartida.getTime())
 
         System.out.println(mensagem)

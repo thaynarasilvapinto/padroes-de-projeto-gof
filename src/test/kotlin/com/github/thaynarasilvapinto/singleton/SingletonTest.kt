@@ -1,4 +1,4 @@
-package com.github.thaynarasilvapinto.Singleton
+package com.github.thaynarasilvapinto.singleton
 
 import org.junit.Before
 import org.junit.Test
