@@ -1,4 +1,4 @@
-package com.github.thaynarasilvapinto.Singleton
+package com.github.thaynarasilvapinto.singleton
 
 class Janela private constructor(var mensagem: String? = null) {
 

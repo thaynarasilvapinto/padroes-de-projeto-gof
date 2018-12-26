@@ -1,4 +1,4 @@
-package com.github.thaynarasilvapinto.FactoryMethod
+package com.github.thaynarasilvapinto.factorymethod
 
 import org.junit.Before
 import org.junit.Test

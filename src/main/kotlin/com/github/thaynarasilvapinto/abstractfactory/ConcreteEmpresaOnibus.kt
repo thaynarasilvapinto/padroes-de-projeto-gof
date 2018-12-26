@@ -1,4 +1,4 @@
-package com.github.thaynarasilvapinto.AbstractFactory
+package com.github.thaynarasilvapinto.abstractfactory
 
 import java.util.*
 
@@ -9,7 +9,11 @@ open class ConcreteEmpresaOnibus : EmpresaOnibus() {
         destino: String,
         dataHoraPartida: Calendar
     ): ConcretePassagemOnibusUrbano {
-        return ConcretePassagemOnibusUrbano(origem, destino, dataHoraPartida)
+        return ConcretePassagemOnibusUrbano(
+            origem,
+            destino,
+            dataHoraPartida
+        )
     }
 
 
@@ -18,6 +22,10 @@ open class ConcreteEmpresaOnibus : EmpresaOnibus() {
         destino: String,
         dataHoraPartida: Calendar
     ): ConcretePassagemOnibusInterestadual {
-        return ConcretePassagemOnibusInterestadual(origem, destino, dataHoraPartida)
+        return ConcretePassagemOnibusInterestadual(
+            origem,
+            destino,
+            dataHoraPartida
+        )
     }
 }
