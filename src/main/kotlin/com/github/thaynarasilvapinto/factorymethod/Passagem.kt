@@ -12,11 +12,5 @@ open class Passagem(
 
     protected var df = SimpleDateFormat("dd/MM/yyyy HH:mm")
 
-/*    fun Passagem(origem: String, destino: String, dataHoraPartida: Calendar) {
-        this.origem = origem
-        this.destino = destino
-        this.dataHoraPartida = dataHoraPartida
-    }*/
-
     open fun exibeDetalhes() : String = Unit.toString()
 }
