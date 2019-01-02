@@ -1,4 +1,4 @@
-package com.github.thaynarasilvapinto.Adapter
+package com.github.thaynarasilvapinto.adapter
 
 class AdapterEUAtoBrasil : TomadaBrasileira(){
     fun conecta(plug: PlugAmericano): String {

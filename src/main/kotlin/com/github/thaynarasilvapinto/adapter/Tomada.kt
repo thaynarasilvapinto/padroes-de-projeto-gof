@@ -1,4 +1,4 @@
-package com.github.thaynarasilvapinto.Adapter
+package com.github.thaynarasilvapinto.adapter
 
 abstract class Tomada<P> {
 
