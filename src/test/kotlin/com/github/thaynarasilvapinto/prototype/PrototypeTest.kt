@@ -4,7 +4,7 @@ import org.junit.Test
 
 class PrototypeTest {
     @Test
-    fun `deve compor a canção`(){
+    fun `deve compor a cancao`(){
         var partitura = Partitura()
 
         partitura.carregaNotas()
